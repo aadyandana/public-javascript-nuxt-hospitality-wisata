@@ -1,14 +1,109 @@
 <template>
-  <div data-v-2f146214="" data-v-18e8acf4=""><!---->
-    <div data-v-2f146214="">
-      <div id="location-catalog" class="pt-0 pt-sm-4 pb-6 pb-sm-8" data-v-2f146214=""><!---->
-        <div class="row">
+  <div>
+    <div>
+      <div id="location-catalog" class="pt-0 pt-sm-4 pb-6 pb-sm-8">
+        <v-row>
           <div id="hero-image" class="d-flex justify-center col col-4">
+            <v-avatar style="height: 168px; min-width: 168px; width: 168px;">
+              <img alt="Fairmont Jakarta"
+                src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/cbfc3f48_z.jpg"
+                class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;">
+            </v-avatar>
+          </div>
+          <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
+            <div id="catalog-header-desktop">
+              <div class="align-baseline">
+                <h1 class="d-inline-block font-weight-medium pr-1 text-h4">
+                  Fairmont Jakarta
+                </h1>
+                <span class="d-inline-flex flex-wrap">
+                  <div style="margin-left: -3px;">
+                    <!-- star -->
+                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
+                      style="font-size: 18px; height: 18px; width: 18px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
+                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
+                        <path
+                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                        </path>
+                      </svg>
+                    </span>
+                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
+                      style="font-size: 18px; height: 18px; width: 18px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
+                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
+                        <path
+                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                        </path>
+                      </svg>
+                    </span>
+                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
+                      style="font-size: 18px; height: 18px; width: 18px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
+                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
+                        <path
+                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                        </path>
+                      </svg>
+                    </span>
+                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
+                      style="font-size: 18px; height: 18px; width: 18px;">
+                      <svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
+                        style="font-size: 18px; height: 18px; width: 18px;">
+                        <path
+                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                        </path>
+                      </svg>
+                    </span>
+                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
+                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
+                        style="font-size: 18px; height: 18px; width: 18px;">
+                        <path
+                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <div id="catalog-body">
+              <p class="mb-0 text--secondary py-1 text-body-2">
+                Hotel
+              </p>
+              <p class="mb-0 pb-1 text-body-2"><span>Jl. Asia Afrika No.8, Gelora Bung Karno</span><span>, Jakarta,
+                  Indonesia</span> <span>
+                  10270
+                </span></p>
+            </div>
+            <div id="review-desktop" aria-hidden="true" class="d-flex align-center py-1 text-body-2">
+              <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92"
+                class="v-progress-circular v-progress-circular--visible"
+                style="height: 34px; width: 34px; color: rgb(161, 28, 180); caret-color: rgb(161, 28, 180);"><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="22.295081967213115 22.295081967213115 44.59016393442623 44.59016393442623"
+                  style="transform: rotate(270deg);">
+                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
+                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="0"
+                    class="v-progress-circular__underlay"></circle>
+                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
+                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="10.053096491487338px"
+                    class="v-progress-circular__overlay"></circle>
+                </svg>
+                <div class="v-progress-circular__info"><span class="font-weight-medium">92</span></div>
+              </div> <span class="pl-2">Excellent ·&nbsp;</span> <span> 254 reviews</span>
+            </div>
+            <p id="headline-desktop" class="mb-0 pt-1"><span class="text-body-2"></span></p>
+          </div>
+          <!--
             <div class="v-avatar" style="height: 168px; min-width: 168px; width: 168px;">
               <div data-v-978962ea="" class="bg-transparent overflow-hidden v-sheet theme--light aspect-ratio"
-                style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Fairmont Jakarta"
+                style="height: 0px; width: 100%; padding-bottom: 100%;">
+                <img data-v-978962ea="" alt="Fairmont Jakarta"
                   src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/cbfc3f48_z.jpg"
-                  class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                  class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
             </div>
           </div>
           <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
@@ -53,7 +148,7 @@
                         <path
                           d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
                         </path>
-                      </svg></span> <!----></div>
+                      </svg></span> </div>
                 </span>
               </div>
             </div>
@@ -64,7 +159,7 @@
               <p class="mb-0 pb-1 text-body-2"><span>Jl. Asia Afrika No.8, Gelora Bung Karno</span><span>, Jakarta,
                   Indonesia</span> <span>
                   10270
-                </span></p> <!----> <!---->
+                </span></p>  
             </div>
             <div id="review-desktop" aria-hidden="true" class="d-flex align-center py-1 text-body-2">
               <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92"
@@ -85,47 +180,49 @@
             </div>
             <p id="headline-desktop" class="mb-0 pt-1"><span class="text-body-2"></span></p>
           </div>
-        </div> <!---->
+          -->
+        </v-row>
       </div>
-      <div data-v-d718b0cc="" data-v-2f146214="">
-        <div id="tabs-row-desktop" class="row align-center justify-space-between" data-v-d718b0cc="">
-          <div data-v-d718b0cc="" class="col col-12">
-            <hr data-v-d718b0cc="" role="separator" aria-orientation="horizontal" class="v-divider theme--light"
+      <!--
+      <div>
+        <div id="tabs-row-desktop" class="row align-center justify-space-between">
+          <div class="col col-12">
+            <hr role="separator" aria-orientation="horizontal" class="v-divider theme--light"
               style="margin-bottom: -1px;">
-            <div data-v-d718b0cc="" class="v-tabs tab-no-background v-tabs--centered theme--light">
+            <div class="v-tabs tab-no-background v-tabs--centered theme--light">
               <div role="tablist"
                 class="v-item-group theme--light v-slide-group v-tabs-bar v-tabs-bar--is-mobile primary--text transparent"
                 style="height: 52px;" data-booted="true">
-                <div class="v-slide-group__prev v-slide-group__prev--disabled"><!----></div>
+                <div class="v-slide-group__prev v-slide-group__prev--disabled"></div>
                 <div class="v-slide-group__wrapper">
                   <div class="v-slide-group__content v-tabs-bar__content">
                     <div class="v-tabs-slider-wrapper" style="height: 2px; left: 166px; width: 90px;">
                       <div class="v-tabs-slider"></div>
                     </div>
-                    <div data-v-d718b0cc="" class="d-flex">
-                      <div data-v-d718b0cc="" class="pl-3"></div> <a data-v-d718b0cc=""
+                    <div class="d-flex">
+                      <div class="pl-3"></div> <a
                         href="/stay/fairmont-jakarta-9000248394/?checkin=2025-03-04&amp;checkout=2025-03-08&amp;guest_per_room=2&amp;number_of_room=1"
                         class="v-tab--active v-tab tab-no-background" tabindex="0" aria-selected="true" role="tab"
-                        aria-current="page"><span data-v-d718b0cc="" class="v-badge v-badge--inline theme--light"><span
-                            data-v-d718b0cc="" aria-hidden="true" class="v-icon notranslate v-icon--left theme--light"
+                        aria-current="page"><span class="v-badge v-badge--inline theme--light"><span
+                            aria-hidden="true" class="v-icon notranslate v-icon--left theme--light"
                             style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
                               style="font-size: 18px; height: 18px; width: 18px;">
                               <path
                                 d="M21.41 11.58L12.41 2.58A2 2 0 0 0 11 2H4A2 2 0 0 0 2 4V11A2 2 0 0 0 2.59 12.42L11.59 21.42A2 2 0 0 0 13 22A2 2 0 0 0 14.41 21.41L21.41 14.41A2 2 0 0 0 22 13A2 2 0 0 0 21.41 11.58M13 20L4 11V4H11L20 13M6.5 5A1.5 1.5 0 1 1 5 6.5A1.5 1.5 0 0 1 6.5 5Z">
                               </path>
-                            </svg></span> <span data-v-d718b0cc="" class="text-button font-weight-medium">
+                            </svg></span> <span class="text-button font-weight-medium">
                             Deals
                           </span><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge"
                               aria-live="polite" role="status" class="v-badge__badge primary"
                               style="display: none;"></span></span></span></a>
-                      <div data-v-d718b0cc="" class="pr-3"></div>
+                      <div class="pr-3"></div>
                     </div>
-                    <div data-v-d718b0cc="" class="d-flex">
-                      <div data-v-d718b0cc="" class="pl-3"></div> <a data-v-d718b0cc=""
+                    <div class="d-flex">
+                      <div class="pl-3"></div> <a
                         href="/stay/fairmont-jakarta-9000248394/photos?checkin=2025-03-04&amp;checkout=2025-03-08&amp;guest_per_room=2&amp;number_of_room=1"
                         class="v-tab tab-no-background" tabindex="0" aria-selected="false" role="tab"><span
-                          data-v-d718b0cc="" class="v-badge v-badge--inline theme--light"><span data-v-d718b0cc=""
+                          class="v-badge v-badge--inline theme--light"><span
                             aria-hidden="true" class="v-icon notranslate v-icon--left theme--light"
                             style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
@@ -133,18 +230,18 @@
                               <path
                                 d="M10,4V8H14V4H10M16,4V8H20V4H16M16,10V14H20V10H16M16,16V20H20V16H16M14,20V16H10V20H14M8,20V16H4V20H8M8,14V10H4V14H8M8,8V4H4V8H8M10,14H14V10H10V14M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4C2.92,22 2,21.1 2,20V4A2,2 0 0,1 4,2Z">
                               </path>
-                            </svg></span> <span data-v-d718b0cc="" class="text-button font-weight-medium">
+                            </svg></span> <span class="text-button font-weight-medium">
                             Photos
                           </span><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge"
                               aria-live="polite" role="status" class="v-badge__badge primary"
                               style="display: none;"></span></span></span></a>
-                      <div data-v-d718b0cc="" class="pr-3"></div>
+                      <div class="pr-3"></div>
                     </div>
-                    <div data-v-d718b0cc="" class="d-flex">
-                      <div data-v-d718b0cc="" class="pl-3"></div> <a data-v-d718b0cc=""
+                    <div class="d-flex">
+                      <div class="pl-3"></div> <a
                         href="/stay/fairmont-jakarta-9000248394/info?checkin=2025-03-04&amp;checkout=2025-03-08&amp;guest_per_room=2&amp;number_of_room=1"
                         class="v-tab tab-no-background" tabindex="0" aria-selected="false" role="tab"><span
-                          data-v-d718b0cc="" class="v-badge v-badge--inline theme--light"><span data-v-d718b0cc=""
+                          class="v-badge v-badge--inline theme--light"><span
                             aria-hidden="true" class="v-icon notranslate v-icon--left theme--light"
                             style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
@@ -152,22 +249,22 @@
                               <path
                                 d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z">
                               </path>
-                            </svg></span> <span data-v-d718b0cc="" class="text-button font-weight-medium">
+                            </svg></span> <span class="text-button font-weight-medium">
                             Info
                           </span><span class="v-badge__wrapper"><span aria-atomic="true" aria-label="Badge"
                               aria-live="polite" role="status" class="v-badge__badge primary"
                               style="display: none;"></span></span></span></a>
-                      <div data-v-d718b0cc="" class="pr-3"></div>
+                      <div class="pr-3"></div>
                     </div>
                   </div>
                 </div>
-                <div class="v-slide-group__next v-slide-group__next--disabled"><!----></div>
+                <div class="v-slide-group__next v-slide-group__next--disabled"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="nuxtchild" data-v-d935b814="" data-v-2f146214="">
+      <div class="nuxtchild" data-v-d935b814="">
         <div class="mt-4 mt-sm-1 mb-0 mb-sm-8 info" data-v-d935b814="">
           <div data-v-d935b814=""
             class="gutters-0 gutters-md-1 pt-sm-2 px-4 px-md-0 d-flex flex-column flex-sm-row justify-start align-stretch justify-sm-center"
@@ -187,7 +284,7 @@
             </div>
             <div data-v-6aca2996="" data-v-d935b814=""
               class="stay-availability-wfilters wfilters d-flex flex-column align-center"
-              style="--wfilters-gutters: 16px;"><!---->
+              style="--wfilters-gutters: 16px;">
               <div data-v-6aca2996="" class="relative w-full d-flex align-center justify-center">
                 <div data-v-6aca2996="" class="wfilters-btn-reset">
                   <div data-v-6aca2996="" class="wfilters-btn-reset-fade v-sheet theme--light" style="height: 32px;">
@@ -207,7 +304,7 @@
                 </div>
                 <div data-v-6aca2996=""
                   class="swiper-container swiper-container-initialized swiper-container-horizontal">
-                  <div data-v-6aca2996="" class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);"><!---->
+                  <div data-v-6aca2996="" class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
                     <div data-v-d935b814="" class="swiper-slide swiper-slide-active" data-v-6aca2996=""
                       style="margin-right: 8px;"><span
                         class="v-chip v-chip--clickable v-chip--no-color v-chip--outlined theme--light v-size--default"><span
@@ -238,10 +335,10 @@
                 </div>
               </div>
             </div>
-          </div> <!---->
+          </div> 
           <div data-v-d935b814="" class="gutters-0 d-sm-none mt-4 v-sheet theme--light rounded-0 grey lighten-4"
             style="height: 24px;"></div>
-        </div> <!---->
+        </div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -275,7 +372,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -291,7 +388,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5408c18a_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -314,7 +411,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -322,7 +419,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/1b8343d0_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -330,7 +427,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Bathroom"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5db049b2_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -382,8 +479,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -394,8 +491,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -409,16 +506,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -462,7 +559,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -525,8 +622,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -537,8 +634,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -552,16 +649,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -605,7 +702,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -668,8 +765,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -680,8 +777,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -695,16 +792,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -748,7 +845,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -811,8 +908,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -823,8 +920,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -838,16 +935,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -891,7 +988,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -911,11 +1008,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -949,7 +1046,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -965,7 +1062,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c6ddc7ec_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -988,7 +1085,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -996,7 +1093,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c1bac9a3_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -1004,7 +1101,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Bathroom"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5db049b2_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -1056,8 +1153,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1068,8 +1165,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -1083,16 +1180,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -1136,7 +1233,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -1199,8 +1296,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1211,8 +1308,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -1226,16 +1323,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -1279,7 +1376,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -1299,11 +1396,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -1337,7 +1434,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">69 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -1353,7 +1450,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5408c18a_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -1376,7 +1473,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -1384,7 +1481,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/1b8343d0_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -1392,7 +1489,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/66709555_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -1444,8 +1541,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1456,8 +1553,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -1471,16 +1568,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -1524,7 +1621,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -1587,8 +1684,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1599,8 +1696,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -1614,16 +1711,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -1667,7 +1764,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -1687,11 +1784,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -1725,7 +1822,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -1741,7 +1838,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5408c18a_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -1764,7 +1861,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -1772,7 +1869,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -1780,7 +1877,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/696f146a_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -1832,8 +1929,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1844,8 +1941,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -1859,16 +1956,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -1912,7 +2009,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -1975,8 +2072,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -1987,8 +2084,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2002,16 +2099,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2055,7 +2152,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2118,8 +2215,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2130,8 +2227,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2145,16 +2242,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2198,7 +2295,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2261,8 +2358,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2273,8 +2370,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2288,16 +2385,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2341,7 +2438,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2361,11 +2458,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -2399,7 +2496,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -2415,7 +2512,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c6ddc7ec_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -2438,7 +2535,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -2446,7 +2543,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c1bac9a3_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -2454,7 +2551,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/73e0d399_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -2506,8 +2603,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2518,8 +2615,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2533,16 +2630,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2586,7 +2683,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2649,8 +2746,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2661,8 +2758,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2676,16 +2773,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2729,7 +2826,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2792,8 +2889,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2804,8 +2901,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2819,16 +2916,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -2872,7 +2969,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -2935,8 +3032,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -2947,8 +3044,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -2962,16 +3059,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -3015,7 +3112,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -3035,11 +3132,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -3073,7 +3170,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -3089,7 +3186,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5408c18a_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -3112,7 +3209,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -3120,7 +3217,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/1b8343d0_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -3128,7 +3225,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/73e0d399_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -3180,8 +3277,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -3192,8 +3289,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -3207,16 +3304,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -3260,7 +3357,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -3323,8 +3420,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -3335,8 +3432,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -3350,16 +3447,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -3403,7 +3500,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -3423,11 +3520,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -3461,7 +3558,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">65 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -3477,7 +3574,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c6ddc7ec_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -3500,7 +3597,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -3508,7 +3605,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c1bac9a3_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -3516,7 +3613,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -3568,8 +3665,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -3580,8 +3677,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -3595,16 +3692,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -3648,7 +3745,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -3711,8 +3808,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -3723,8 +3820,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -3738,16 +3835,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -3791,7 +3888,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -3811,11 +3908,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -3849,7 +3946,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">65 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -3865,7 +3962,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c6ddc7ec_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -3888,7 +3985,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -3896,7 +3993,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c1bac9a3_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -3904,7 +4001,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -3956,8 +4053,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -3968,8 +4065,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -3983,16 +4080,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4036,7 +4133,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4099,8 +4196,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -4111,8 +4208,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -4126,16 +4223,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4179,7 +4276,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4199,11 +4296,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -4237,7 +4334,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">113 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -4253,7 +4350,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/496d1f42_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -4276,7 +4373,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -4284,7 +4381,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/002087e1_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -4292,7 +4389,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Bathroom"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5db049b2_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -4344,8 +4441,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -4356,8 +4453,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -4371,16 +4468,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4424,7 +4521,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4487,8 +4584,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -4499,8 +4596,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -4514,16 +4611,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4567,7 +4664,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4587,11 +4684,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -4625,7 +4722,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -4641,7 +4738,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/c6ddc7ec_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -4664,7 +4761,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -4672,7 +4769,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/1b8343d0_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -4680,7 +4777,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/73e0d399_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -4732,8 +4829,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -4744,8 +4841,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -4759,16 +4856,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4812,7 +4909,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4875,8 +4972,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -4887,8 +4984,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -4902,16 +4999,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -4955,7 +5052,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -4975,11 +5072,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -5013,7 +5110,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">113 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -5029,7 +5126,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/496d1f42_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -5052,7 +5149,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -5060,7 +5157,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/73e0d399_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -5068,7 +5165,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -5120,8 +5217,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -5132,8 +5229,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -5147,16 +5244,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -5200,7 +5297,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -5263,8 +5360,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -5275,8 +5372,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -5290,16 +5387,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -5343,7 +5440,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -5363,11 +5460,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -5402,7 +5499,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">113 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -5418,7 +5515,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/496d1f42_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -5441,7 +5538,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -5449,7 +5546,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/73e0d399_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -5457,7 +5554,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -5509,8 +5606,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -5521,8 +5618,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -5536,16 +5633,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -5589,7 +5686,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -5652,8 +5749,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -5664,8 +5761,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -5679,16 +5776,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -5732,7 +5829,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -5752,11 +5849,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -5790,7 +5887,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">85 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -5806,7 +5903,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/6aaf50b4_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -5829,7 +5926,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -5837,7 +5934,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/3e5dc054_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -5845,7 +5942,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Bathroom"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5db049b2_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -5897,8 +5994,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -5909,8 +6006,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -5924,16 +6021,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -5977,7 +6074,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6040,8 +6137,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -6052,8 +6149,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -6067,16 +6164,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -6120,7 +6217,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6140,11 +6237,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -6179,7 +6276,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">85 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -6195,7 +6292,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/6aaf50b4_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -6218,7 +6315,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -6226,7 +6323,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/a4305c49_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -6234,7 +6331,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/3e5dc054_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -6286,8 +6383,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -6298,8 +6395,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -6313,16 +6410,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -6366,7 +6463,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6429,8 +6526,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -6441,8 +6538,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -6456,16 +6553,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -6509,7 +6606,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6529,11 +6626,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -6567,7 +6664,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">113 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -6583,7 +6680,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/e49faafe_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -6606,7 +6703,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -6614,7 +6711,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/46804fa1_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -6622,7 +6719,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/6aaf50b4_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -6674,8 +6771,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -6686,8 +6783,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -6701,16 +6798,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -6754,7 +6851,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6817,8 +6914,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -6829,8 +6926,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -6844,16 +6941,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -6897,7 +6994,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -6917,11 +7014,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -6955,7 +7052,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">128 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -6971,7 +7068,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/e49faafe_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -6994,7 +7091,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -7002,7 +7099,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/46804fa1_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -7010,7 +7107,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/6aaf50b4_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -7062,8 +7159,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7074,8 +7171,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -7089,16 +7186,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -7142,7 +7239,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -7205,8 +7302,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7217,8 +7314,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -7232,16 +7329,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -7285,7 +7382,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -7305,11 +7402,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -7343,7 +7440,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">49 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -7359,7 +7456,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5408c18a_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -7382,7 +7479,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -7390,7 +7487,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/096dfb7c_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -7398,7 +7495,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/696f146a_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -7450,8 +7547,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7462,8 +7559,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -7477,16 +7574,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -7530,7 +7627,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -7593,8 +7690,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7605,8 +7702,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -7620,16 +7717,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -7673,7 +7770,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -7693,11 +7790,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -7731,7 +7828,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">129 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -7747,7 +7844,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/w3369h2248x0y0-a8305800_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -7770,7 +7867,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -7778,7 +7875,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/002087e1_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -7786,7 +7883,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/5139b1b5_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -7838,8 +7935,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7850,8 +7947,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -7865,16 +7962,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -7918,7 +8015,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -7981,8 +8078,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -7993,8 +8090,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -8008,16 +8105,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -8061,7 +8158,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -8081,11 +8178,11 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
         </div>
         <div data-v-d935b814="" class="gutters-0 d-sm-none v-sheet theme--light rounded-0 grey lighten-4"
-          style="height: 24px;"></div> <!---->
+          style="height: 24px;"></div> 
         <div data-v-15d6fcda="" data-v-d935b814="" elevation="0" class="bg-transparent mb-sm-8 mb-md-10">
           <div data-v-15d6fcda="" class="stay-offer-grid">
             <div data-v-15d6fcda=""
@@ -8119,7 +8216,7 @@
                         d="M23,15H21V17H23V15M23,11H21V13H23V11M23,19H21V21C22,21 23,20 23,19M15,3H13V5H15V3M23,7H21V9H23V7M21,3V5H23C23,4 22,3 21,3M3,21H11V15H1V19A2,2 0 0,0 3,21M3,7H1V9H3V7M15,19H13V21H15V19M19,3H17V5H19V3M19,19H17V21H19V19M3,3C2,3 1,4 1,5H3V3M3,11H1V13H3V11M11,3H9V5H11V3M7,3H5V5H7V3Z">
                       </path>
                     </svg></span> <span data-v-15d6fcda="" class="text-caption text-md-body-2">172 m<sup
-                      data-v-15d6fcda="">2</sup></span></span> <!----></div>
+                      data-v-15d6fcda="">2</sup></span></span> </div>
               <hr data-v-15d6fcda="" role="separator" aria-orientation="horizontal"
                 class="mx-n4 mt-4 mb-n4 d-sm-none v-divider theme--light" style="max-width: unset;">
             </div>
@@ -8135,7 +8232,7 @@
                       style="height: 0px; max-width: 100%; width: 100%; padding-bottom: 66.6667%; line-height: 0;"><img
                         data-v-978962ea="" alt="Room"
                         src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/4e3881ed_b.jpg"
-                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                        class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                     <div data-v-1409cccc=""
                       class="v-btn-stay-see-all-room-images absolute d-flex justify-center align-center rounded info elevation-1 ma-4 ma-sm-3 ma-md-4 px-2 py-1">
                       <span data-v-1409cccc="" aria-hidden="true"
@@ -8158,7 +8255,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/7f96225b_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-2;">
@@ -8166,7 +8263,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/002087e1_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
                 <div data-v-1409cccc="" class="grey lighten-4 relative stay-availability-room-images__other-img"
                   style="line-height: 0; grid-area: other-3;">
@@ -8174,7 +8271,7 @@
                     class="bg-transparent overflow-hidden stay-availability-room-images__other-img__container v-sheet theme--light aspect-ratio"
                     style="height: 0px; width: 100%; padding-bottom: 100%;"><img data-v-978962ea="" alt="Room"
                       src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/fc2eea0f_b.jpg"
-                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> <!----></div>
+                      class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
                 </div>
               </div>
             </div>
@@ -8226,8 +8323,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -8238,8 +8335,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -8253,16 +8350,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -8306,7 +8403,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -8369,8 +8466,8 @@
                                   d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z">
                                 </path>
                               </svg></span></span></button><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span> <span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                          class="v-tooltip v-tooltip--top"></span> <span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;"><span class="v-btn__content"><span data-v-4ff6fa5e=""
                               aria-hidden="true" class="v-icon notranslate theme--light"
@@ -8381,8 +8478,8 @@
                                   d="M19 19H15V21H19C20.1 21 21 20.1 21 19V15H19M19 3H15V5H19V9H21V5C21 3.9 20.1 3 19 3M5 5H9V3H5C3.9 3 3 3.9 3 5V9H5M5 15H3V19C3 20.1 3.9 21 5 21H9V19H5V15M7 11H9V13H7V11M11 11H13V13H11V11M15 11H17V13H15V11Z">
                                 </path>
                               </svg></span></span></button>
-                        <div data-v-4ff6fa5e="" class="v-dialog__container"><!----></div><span data-v-4ff6fa5e=""
-                          class="v-tooltip v-tooltip--top"><!----></span><button data-v-4ff6fa5e="" type="button"
+                        <div data-v-4ff6fa5e="" class="v-dialog__container"></div><span data-v-4ff6fa5e=""
+                          class="v-tooltip v-tooltip--top"></span><button data-v-4ff6fa5e="" type="button"
                           class="v-btn v-btn--icon v-btn--round theme--light v-size--x-small"
                           style="height: 32px; width: 32px;" id="stay-availability-menu-button" role="button"
                           aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><span
@@ -8396,16 +8493,16 @@
                               </svg></span></span></button>
                       </div>
                       <div data-v-4ff6fa5e="">
-                        <div class="v-dialog__container"><!----></div>
-                        <div data-v-35d8ec2b=""><!---->
-                          <div data-v-35d8ec2b="" class="v-dialog__container"><!----></div>
+                        <div class="v-dialog__container"></div>
+                        <div data-v-35d8ec2b="">
+                          <div data-v-35d8ec2b="" class="v-dialog__container"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div data-v-15230137="" data-v-15d6fcda="" class="mt-4">
-                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"><!----> <!---->
+                  <div data-v-15230137="" class="price-display-grid price-display-grid--split"> 
                     <div data-v-15230137="" style="grid-area: rate-nightly;">
                       <p data-v-15230137="" class="d-block mb-0"><span data-v-15230137=""
                           class="text-h8 font-weight-medium">
@@ -8449,7 +8546,7 @@
                             </path>
                           </svg></span><span data-v-15230137=""
                           class="text-button text--disabled text-no-wrap">Member-only price, valid in app only</span>
-                      </p> <!---->
+                      </p> 
                       <div data-v-15230137="" class="spacer"></div>
                       <p data-v-15230137="" class="mb-0 d-flex justify-start align-center" style="gap: 4px;"><span
                           data-v-15230137="" aria-hidden="true" class="v-icon notranslate theme--light primary--text"
@@ -8469,13 +8566,13 @@
             </div>
           </div>
           <div data-v-15d6fcda="">
-            <div class="v-dialog__container"><!----></div>
+            <div class="v-dialog__container"></div>
           </div>
-        </div> <!----> <!----> <!----> <!---->
-      </div>
+        </div>    
+      </div>-->
     </div>
-    <div class="v-dialog__container" data-v-2f146214=""><!----></div>
-    <div class="v-dialog__container" data-v-2f146214=""><!----></div>
+    <div class="v-dialog__container"></div>
+    <div class="v-dialog__container"></div>
   </div>
 </template>
 
