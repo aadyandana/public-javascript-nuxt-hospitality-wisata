@@ -5,182 +5,56 @@
         <v-row>
           <div id="hero-image" class="d-flex justify-center col col-4">
             <v-avatar style="height: 168px; min-width: 168px; width: 168px;">
-              <img alt="Fairmont Jakarta"
-                src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/cbfc3f48_z.jpg"
-                class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;">
+              <img
+                :alt="property.name"
+                :src="property.catalog_data.hero_image"
+                class="w-full h-full"
+                style="object-fit: cover; object-position: 50% 50%;"
+              />
             </v-avatar>
           </div>
           <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
             <div id="catalog-header-desktop">
               <div class="align-baseline">
                 <h1 class="d-inline-block font-weight-medium pr-1 text-h4">
-                  Fairmont Jakarta
+                  {{ property.name }}
                 </h1>
                 <span class="d-inline-flex flex-wrap">
                   <div style="margin-left: -3px;">
-                    <!-- star -->
-                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
-                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg>
-                    </span>
-                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
-                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg>
-                    </span>
-                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"
-                        class="v-icon__svg" style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg>
-                    </span>
-                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;">
-                      <svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg>
-                    </span>
-                    <span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg>
-                    </span>
+                    <v-icon
+                      v-for="n in 5"
+                      :key="n"
+                      :color="n <= Math.ceil(starRating) ? 'amber' : 'grey'"
+                    >
+                      {{ getStarIcon(n) }}
+                    </v-icon>
                   </div>
                 </span>
               </div>
             </div>
             <div id="catalog-body">
               <p class="mb-0 text--secondary py-1 text-body-2">
-                Hotel
+                {{ property.catalog_data.category }}
               </p>
-              <p class="mb-0 pb-1 text-body-2"><span>Jl. Asia Afrika No.8, Gelora Bung Karno</span><span>, Jakarta,
-                  Indonesia</span> <span>
-                  10270
-                </span></p>
+              <p class="mb-0 pb-1 text-body-2">
+                {{ property.catalog_data.address_full }} {{ property.catalog_data.postal_code }}
+              </p>
             </div>
             <div id="review-desktop" aria-hidden="true" class="d-flex align-center py-1 text-body-2">
-              <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92"
-                class="v-progress-circular v-progress-circular--visible"
-                style="height: 34px; width: 34px; color: rgb(161, 28, 180); caret-color: rgb(161, 28, 180);"><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="22.295081967213115 22.295081967213115 44.59016393442623 44.59016393442623"
-                  style="transform: rotate(270deg);">
-                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
-                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="0"
-                    class="v-progress-circular__underlay"></circle>
-                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
-                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="10.053096491487338px"
-                    class="v-progress-circular__overlay"></circle>
-                </svg>
-                <div class="v-progress-circular__info"><span class="font-weight-medium">92</span></div>
-              </div> <span class="pl-2">Excellent ·&nbsp;</span> <span> 254 reviews</span>
-            </div>
-            <p id="headline-desktop" class="mb-0 pt-1"><span class="text-body-2"></span></p>
-          </div>
-          <!--
-            <div class="v-avatar" style="height: 168px; min-width: 168px; width: 168px;">
-              <div data-v-978962ea="" class="bg-transparent overflow-hidden v-sheet theme--light aspect-ratio"
-                style="height: 0px; width: 100%; padding-bottom: 100%;">
-                <img data-v-978962ea="" alt="Fairmont Jakarta"
-                  src="https://i.travelapi.com/lodging/10000000/9300000/9296600/9296574/cbfc3f48_z.jpg"
-                  class="w-full h-full" style="object-fit: cover; object-position: 50% 50%;"> </div>
+              <v-progress-circular 
+                v-if="property.review_graph !== null"
+                :value="property.review_graph.rating" 
+                :color="property.review_graph.color" 
+                :size="34"
+                :rotate="-90"
+              >
+                {{ property.review_graph.rating }}
+              </v-progress-circular>
+              <div v-else>Loading...</div>
+              <span class="pl-2">{{ property.review_graph.category }} ·&nbsp;</span>
+              <span>{{ property.catalog_data.review_count }} reviews</span>
             </div>
           </div>
-          <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
-            <div id="catalog-header-desktop">
-              <div class="align-baseline">
-                <h1 class="d-inline-block font-weight-medium pr-1 text-h4">
-                  Fairmont Jakarta
-                </h1> <span class="d-inline-flex flex-wrap">
-                  <div style="margin-left: -3px;"><span aria-hidden="true"
-                      class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg></span><span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg></span><span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg></span><span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg></span><span aria-hidden="true" class="v-icon notranslate mb-1 theme--light orange--text"
-                      style="font-size: 18px; height: 18px; width: 18px;"><svg xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"
-                        style="font-size: 18px; height: 18px; width: 18px;">
-                        <path
-                          d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
-                        </path>
-                      </svg></span> </div>
-                </span>
-              </div>
-            </div>
-            <div id="catalog-body">
-              <p class="mb-0 text--secondary py-1 text-body-2">
-                Hotel
-              </p>
-              <p class="mb-0 pb-1 text-body-2"><span>Jl. Asia Afrika No.8, Gelora Bung Karno</span><span>, Jakarta,
-                  Indonesia</span> <span>
-                  10270
-                </span></p>  
-            </div>
-            <div id="review-desktop" aria-hidden="true" class="d-flex align-center py-1 text-body-2">
-              <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="92"
-                class="v-progress-circular v-progress-circular--visible"
-                style="height: 34px; width: 34px; color: rgb(161, 28, 180); caret-color: rgb(161, 28, 180);"><svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="22.295081967213115 22.295081967213115 44.59016393442623 44.59016393442623"
-                  style="transform: rotate(270deg);">
-                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
-                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="0"
-                    class="v-progress-circular__underlay"></circle>
-                  <circle fill="transparent" cx="44.59016393442623" cy="44.59016393442623" r="20"
-                    stroke-width="4.590163934426229" stroke-dasharray="125.664" stroke-dashoffset="10.053096491487338px"
-                    class="v-progress-circular__overlay"></circle>
-                </svg>
-                <div class="v-progress-circular__info"><span class="font-weight-medium">92</span></div>
-              </div> <span class="pl-2">Excellent ·&nbsp;</span> <span> 254 reviews</span>
-            </div>
-            <p id="headline-desktop" class="mb-0 pt-1"><span class="text-body-2"></span></p>
-          </div>
-          -->
         </v-row>
       </div>
       <!--
@@ -8577,7 +8451,57 @@
 </template>
 
 <script>
+const defaultReviewGraph = {
+  rating: 0,
+  color: 'red',
+  category: 'Bad'
+};
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  data() {
+    return {
+      property: {
+        catalog_data: {},
+        review_graph: defaultReviewGraph
+      },
+      starRating: 0
+    };
+  },
+  mounted() {
+    this.fetchProperty();
+  },
+  methods: {
+    async fetchProperty() {
+      try {
+        const response = await this.$axios.get('/property?id=9000248394&id=9000119804&id=9000119806');
+        this.property = response.data['9000248394'];
+        this.starRating = this.property.catalog_data.star_rating;
+        this.setReviewGraph();
+      } catch (error) {
+        console.error(error);
+        this.property = {};
+      }
+    },
+    getStarIcon(n) {
+      if (n <= Math.floor(this.starRating)) {
+        return "mdi-star";
+      } else if (n === Math.ceil(this.starRating) && this.starRating % 1 !== 0) {
+        return "mdi-star-half-full";
+      }
+      return "mdi-star-outline";
+    },
+    setReviewGraph() {
+      this.property.review_graph = defaultReviewGraph;
+      this.property.review_graph.rating = this.property.catalog_data.review_rating;
+      if (this.property.catalog_data.review_rating >= 90) {
+        this.property.review_graph.color = 'purple';
+        this.property.review_graph.category = 'Excellent';
+      } else if (this.property.catalog_data.review_rating >= 60) {
+        this.property.review_graph.color = 'orange';
+        this.property.review_graph.category = 'Average';
+      }
+    }
+  }
 }
 </script>
