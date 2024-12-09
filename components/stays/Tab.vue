@@ -29,6 +29,10 @@
 export default {
     name: "Tab",
     props: {
+        deals: {
+            type: Object,
+            required: true
+        },
         photos: {
             type: Array,
             required: true
@@ -42,7 +46,7 @@ export default {
         return {
             selectedTab: 0,
             tabs: [
-                { id: 0, icon: "mdi-tag-outline", label: "Deals", content: "Deals Content" },
+                { id: 0, icon: "mdi-tag-outline", label: "Deals", content: this.deals },
                 { id: 1, icon: "mdi-grid", label: "Photos", content: this.photos },
                 { id: 2, icon: "mdi-information-outline", label: "Info", content: this.info }
             ]

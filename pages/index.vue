@@ -5,12 +5,8 @@
         <v-row>
           <div id="hero-image" class="d-flex justify-center col col-4">
             <v-avatar style="height: 168px; min-width: 168px; width: 168px;">
-              <img
-                :alt="property.name"
-                :src="property.catalog_data.hero_image"
-                class="w-full h-full"
-                style="object-fit: cover; object-position: 50% 50%;"
-              />
+              <img :alt="property.name" :src="property.catalog_data.hero_image" class="w-full h-full"
+                style="object-fit: cover; object-position: 50% 50%;" />
             </v-avatar>
           </div>
           <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
@@ -20,11 +16,7 @@
               </h1>
               <span>
                 <div style="margin-left: -3px;">
-                  <v-icon
-                    v-for="n in 5"
-                    :key="n"
-                    :color="n <= Math.ceil(starRating) ? 'amber' : 'grey'"
-                  >
+                  <v-icon v-for="n in 5" :key="n" :color="n <= Math.ceil(starRating) ? 'amber' : 'grey'">
                     {{ getStarIcon(n) }}
                   </v-icon>
                 </div>
@@ -39,13 +31,8 @@
               </p>
             </div>
             <div id="review-desktop" aria-hidden="true" class="d-flex align-center py-1 text-body-2">
-              <v-progress-circular 
-                v-if="property.review_graph !== null"
-                :value="property.review_graph.rating" 
-                :color="property.review_graph.color" 
-                :size="34"
-                :rotate="-90"
-              >
+              <v-progress-circular v-if="property.review_graph !== null" :value="property.review_graph.rating"
+                :color="property.review_graph.color" :size="34" :rotate="-90">
                 {{ property.review_graph.rating }}
               </v-progress-circular>
               <div v-else>Loading...</div>
@@ -55,7 +42,8 @@
           </div>
         </v-row>
       </div>
-      <Tab v-if="propertyFetched" :photos="property.image_list" :info="property.important_info_data" />
+      <Tab v-if="propertyFetched && availibillityFetched" :deals="availibillity" :photos="property.image_list"
+        :info="property.important_info_data" />
       <!--
       <div>
         <div id="tabs-row-desktop" class="row align-center justify-space-between">
@@ -8470,11 +8458,14 @@ export default {
         catalog_data: {},
         review_graph: defaultReviewGraph
       },
+      availibillityFetched: false,
+      availibillity: {},
       starRating: 0
     };
   },
   mounted() {
     this.fetchProperty();
+    this.fetchAvailibillity();
   },
   methods: {
     async fetchProperty() {
@@ -8483,10 +8474,20 @@ export default {
         this.property = response.data['9000248394'];
         this.starRating = this.property.catalog_data.star_rating;
         this.setReviewGraph();
-this.propertyFetched = true;
+        this.propertyFetched = true;
       } catch (error) {
         console.error(error);
         this.property = {};
+      }
+    },
+    async fetchAvailibillity() {
+      try {
+        const response = await this.$axios.get('/stay/availability/9000248394?checkin=2025-03-04&checkout=2025-03-08&guest_per_room=2&number_of_room=1');
+        this.availibillity = response.data;
+        this.availibillityFetched = true;
+      } catch (error) {
+        console.error(error);
+        this.availibillity = {};
       }
     },
     getStarIcon(n) {
