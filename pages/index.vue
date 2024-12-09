@@ -55,6 +55,7 @@
           </div>
         </v-row>
       </div>
+      <Tab :photos="property.image_list" :info="property.important_info_data" />
       <!--
       <div>
         <div id="tabs-row-desktop" class="row align-center justify-space-between">
@@ -8449,6 +8450,8 @@
 </template>
 
 <script>
+import Tab from "@/components/stays/Tab.vue";
+
 const defaultReviewGraph = {
   rating: 0,
   color: 'red',
@@ -8457,6 +8460,9 @@ const defaultReviewGraph = {
 
 export default {
   name: 'IndexPage',
+  components: {
+    Tab
+  },
   data() {
     return {
       property: {
@@ -8472,7 +8478,7 @@ export default {
   methods: {
     async fetchProperty() {
       try {
-        const response = await this.$axios.get('/property?id=9000248394&id=9000119804&id=9000119806');
+        const response = await this.$axios.get('/property?id=9000248394&id=9000119804&id=9000119806&&include=important_info&include=image');
         this.property = response.data['9000248394'];
         this.starRating = this.property.catalog_data.star_rating;
         this.setReviewGraph();
