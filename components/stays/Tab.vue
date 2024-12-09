@@ -31,12 +31,10 @@ export default {
     props: {
         photos: {
             type: Array,
-            default: () => [],
             required: true
         },
         info: {
             type: Object,
-            default: () => {},
             required: true
         }
     },

@@ -55,7 +55,7 @@
           </div>
         </v-row>
       </div>
-      <Tab :photos="property.image_list" :info="property.important_info_data" />
+      <Tab v-if="propertyFetched" :photos="property.image_list" :info="property.important_info_data" />
       <!--
       <div>
         <div id="tabs-row-desktop" class="row align-center justify-space-between">
@@ -8465,6 +8465,7 @@ export default {
   },
   data() {
     return {
+      propertyFetched: false,
       property: {
         catalog_data: {},
         review_graph: defaultReviewGraph
@@ -8482,6 +8483,7 @@ export default {
         this.property = response.data['9000248394'];
         this.starRating = this.property.catalog_data.star_rating;
         this.setReviewGraph();
+this.propertyFetched = true;
       } catch (error) {
         console.error(error);
         this.property = {};
