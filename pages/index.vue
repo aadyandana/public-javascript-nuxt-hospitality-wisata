@@ -15,22 +15,20 @@
           </div>
           <div id="catalog-data" class="flex-grow-1 ml-n2 ml-sm-0 col">
             <div id="catalog-header-desktop">
-              <div class="align-baseline">
-                <h1 class="d-inline-block font-weight-medium pr-1 text-h4">
-                  {{ property.name }}
-                </h1>
-                <span class="d-inline-flex flex-wrap">
-                  <div style="margin-left: -3px;">
-                    <v-icon
-                      v-for="n in 5"
-                      :key="n"
-                      :color="n <= Math.ceil(starRating) ? 'amber' : 'grey'"
-                    >
-                      {{ getStarIcon(n) }}
-                    </v-icon>
-                  </div>
-                </span>
-              </div>
+              <h1 class="font-weight-medium pr-1 text-h4">
+                {{ property.name }}
+              </h1>
+              <span>
+                <div style="margin-left: -3px;">
+                  <v-icon
+                    v-for="n in 5"
+                    :key="n"
+                    :color="n <= Math.ceil(starRating) ? 'amber' : 'grey'"
+                  >
+                    {{ getStarIcon(n) }}
+                  </v-icon>
+                </div>
+              </span>
             </div>
             <div id="catalog-body">
               <p class="mb-0 text--secondary py-1 text-body-2">
