@@ -14,8 +14,7 @@
                     <v-item v-for="tab in tabs" :key="tab.id">
                         <template #default="{ active }">
                             <v-card v-show="active" class="pa-4">
-                                <h2>{{ tab.label }}</h2>
-                                <p>{{ tab.content }}</p>
+                                <component :is="tab.component" :content="tab.content" />
                             </v-card>
                         </template>
                     </v-item>
@@ -26,6 +25,10 @@
 </template>
 
 <script>
+import Deals from "@/components/stays/contents/Deals.vue";
+import Photos from "@/components/stays/contents/Photos.vue";
+import Info from "@/components/stays/contents/Info.vue";
+
 export default {
     name: "Tab",
     props: {
@@ -46,9 +49,9 @@ export default {
         return {
             selectedTab: 0,
             tabs: [
-                { id: 0, icon: "mdi-tag-outline", label: "Deals", content: this.deals },
-                { id: 1, icon: "mdi-grid", label: "Photos", content: this.photos },
-                { id: 2, icon: "mdi-information-outline", label: "Info", content: this.info }
+                { id: 0, icon: "mdi-tag-outline", label: "Deals", content: this.deals, component: Deals },
+                { id: 1, icon: "mdi-grid", label: "Photos", content: this.photos, component: Photos },
+                { id: 2, icon: "mdi-information-outline", label: "Info", content: this.info, component: Info }
             ]
         };
     }
