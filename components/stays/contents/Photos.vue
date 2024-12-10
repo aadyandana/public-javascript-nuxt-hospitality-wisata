@@ -1,7 +1,15 @@
 <template>
     <div>
-        <h2>Photos</h2>
-        <p>{{ content }}</p>
+        <v-row>
+            <v-col
+                v-for="(photo, index) in content"
+                :key="index"
+                cols="4"
+                class="d-flex justify-center"
+            >
+                <v-img :src="photo.url.ori" :alt="photo.group" />
+            </v-col>
+        </v-row>
     </div>
 </template>
 
